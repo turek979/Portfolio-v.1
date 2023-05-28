@@ -71,22 +71,27 @@ a{
     font-size: medium;
     color: #d1d1d1;
     padding: 20px 10px;
-    height: 680px;
+    height: 400px;
     margin-left: 220px;
 }
-#section2{
+.section2{
     text-align: center;
     margin-left: 220px;
+    font-size: large;
+    color: rgb(216, 228, 241);
 }
-#h1ikony{
-    float: left;
+table{
+    margin-left: 200px;
 }
 #ikonyt{
     padding: 50px;
 }
 #ikonyt:hover{
-    translate: 1rem;
+    transform: translate(0, -1rem);
     transition: 1s;
+}
+#contact{
+    height: 600px;
 }
 #footer{
     padding-top: 30px;
