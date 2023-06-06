@@ -11,6 +11,7 @@ a{
     background-size: cover;
     margin: 0; 
     font-family: 'Montserrat', sans-serif;
+    min-width: 63rem;
 }
 #google{
     width: 70px;
@@ -45,7 +46,7 @@ a{
 }
 #nav{
     background: rgba(0,0,0, .5);
-    width: 160px;
+    width: 10rem;
     float: center;
     text-align: center;
     height: 100%;
@@ -70,12 +71,22 @@ a{
 #section{
     font-size: 2rem;
     color: #d1d1d1;
-    padding: 7.5rem 5rem;
+    padding-top: 7.5rem;
+    padding-inline: 5rem;
     height: 55rem;
-    margin-left: 220px;
+    margin-left: 13rem;
 }
 .hi{
     padding: 0 3rem;
+}
+.blinker{
+    animation: blinker 1s linear infinite;
+    color: rgb(216, 228, 241);
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
 }
 h3{
     font-weight: 100;
@@ -93,28 +104,113 @@ h3{
     color: rgb(240, 72, 72);
 }
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
+}
+#section3{
+    color: rgb(216, 228, 241);
+    margin-left: 13rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.myPhoto{
+    border-radius: 50%;
+    width: 30rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.bio{
+    text-align: center;
+    width: 30rem;
+    margin-right: 8rem;
+    margin-left: 28rem;
+    margin-top: 3rem;
+    border: solid;
+    border-radius: 3rem;
+    border-color: rgb(117, 117, 117);
+    border-width: 0.5rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: inset 0 0 10px black;
+    padding-inline: 1rem;
+}
+.readbio{
+    color:rgb(78, 116, 241);
+    font-weight: bold;
+    font-size: larger;
+
+}
+.readbio:hover{
+    scale: 1.1;
+    transition: 1s;
+    /* TODO nie działa? */
 }
 .section2{
     text-align: center;
-    margin-left: 220px;
+    margin-left: 13rem;
     font-size: large;
     color: rgb(216, 228, 241);
 }
 .grid{
     display: grid;
     grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
-    grid-template-rows: 20rem 20rem;
+    grid-template-rows: 1rem 20rem 10rem;
 }
 #ikonyt{
     padding: 50px;
+    transition: transform 1s ease-in-out;
 }
 #ikonyt:hover{
     transform: translate(0, -1rem);
     transition: 1s;
 }
-#contact{
-    height: 600px;
+#projects{
+    height: 100rem;
+    margin-left: 13rem;
+    padding: 5rem;
+    color: rgb(216, 228, 241);
+    display: block;
+}
+.myprojects{
+    text-align: center;
+}
+.project1{
+    float: left;
+    margin-right: 60rem;
+    margin-bottom: 5rem;
+    width: 40rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px black;
+}
+.project1img{
+    width: 40rem;
+    height: auto;
+}
+.project2{
+    float: right;
+    margin-left: 60rem;
+    width: 40rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px black;
+    margin-bottom: 5rem;
+}
+.project2img{
+    width: 40rem;
+    height: auto;
+}
+.project3{
+    float: left;
+    margin-right: 60rem;
+    width: 40rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px black;
+    margin-bottom: 5rem;
+}
+.project4{
+    float: right;
+    margin-left: 60rem;
+    width: 40rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px black;
+    margin-bottom: 5rem;
 }
 #footer{
     padding-top: 30px;
