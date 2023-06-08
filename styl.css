@@ -114,7 +114,8 @@ h1{
 }
 .myPhoto{
     border-radius: 50%;
-    width: 30rem;
+    max-width: 30rem;
+    height: auto;
     margin-left: 5rem;
     margin-top: 3rem;
 }
@@ -176,41 +177,51 @@ h1{
     float: left;
     margin-right: 60rem;
     margin-bottom: 5rem;
-    width: 40rem;
+    width: 30rem;
+    padding: 5rem;
     background-color: hsla(233, 8%, 19%);
-    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px rgb(22, 22, 22);
+    border-radius: 1rem;
+}
+h4{
+    font-size: 4rem;
+    margin: 1rem
 }
 .project1img{
-    width: 40rem;
+    width: 30rem;
     height: auto;
 }
 .project2{
     float: right;
     margin-left: 60rem;
-    width: 40rem;
-    background-color: hsla(233, 8%, 19%);
-    box-shadow: 10px 10px black;
     margin-bottom: 5rem;
+    width: 30rem;
+    padding: 5rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px rgb(22, 22, 22);
+    border-radius: 1rem;
 }
 .project2img{
-    width: 40rem;
+    width: 30rem;
     height: auto;
 }
 .project3{
     float: left;
     margin-right: 60rem;
-    width: 40rem;
-    background-color: hsla(233, 8%, 19%);
-    box-shadow: 10px 10px black;
     margin-bottom: 5rem;
+    width: 30rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px rgb(22, 22, 22);
+    border-radius: 1rem;
 }
 .project4{
     float: right;
     margin-left: 60rem;
-    width: 40rem;
-    background-color: hsla(233, 8%, 19%);
-    box-shadow: 10px 10px black;
     margin-bottom: 5rem;
+    width: 30rem;
+    background-color: hsla(233, 8%, 19%);
+    box-shadow: 10px 10px rgb(22, 22, 22);
+    border-radius: 1rem;
 }
 #footer{
     padding-top: 30px;
