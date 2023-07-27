@@ -229,14 +229,9 @@ h4{
     text-align: center;
 }
 #contact-form{
-    border: solid;
-    border-radius: 3rem;
-    border-color: rgb(117, 117, 117);
-    border-width: 0.5rem;
     background-color: hsla(233, 8%, 19%);
-    box-shadow: inset 0 0 10px black;
     margin: 5rem;
-    margin-inline: 25rem;
+    margin-inline: 25%rem;
     padding: 3rem;
 }
 textarea{
@@ -247,6 +242,27 @@ input{
 }
 .form-error {
     color: red;
+}
+.form-input{
+    background-color: #1d1d20;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 3rem;
+    width: 15rem;
+    margin: 0.7rem;
+    padding: 0.3rem;
+    color: white;
+}
+.form-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #1d1d20;
+    color: white;
+    border: none;
+}
+.form-button:onclick{
+    background-color: #333;
 }
 #footer{
     padding-top: 30px;
