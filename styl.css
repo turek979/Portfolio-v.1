@@ -118,6 +118,9 @@ h1{
     height: auto;
     margin-left: 5rem;
     margin-top: 3rem;
+    border: solid;
+    border-color: black;
+    border-width: 1rem;
 }
 .bio{
     text-align: center;
@@ -233,6 +236,7 @@ h4{
     margin: 5rem;
     margin-inline: 25%rem;
     padding: 3rem;
+    display: flex;
 }
 textarea{
     background-color: #434346;
@@ -260,6 +264,7 @@ input{
     background-color: #1d1d20;
     color: white;
     border: none;
+    margin: 1rem;
 }
 .form-button:onclick{
     background-color: #333;
