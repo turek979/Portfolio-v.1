@@ -14,6 +14,16 @@ body{
     font-family: 'Montserrat', sans-serif;
     min-width: 63rem;
 }
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-weight: 100;
+}
+h4{
+    font-size: 4rem;
+    margin: 1rem
+}
 /* Nav and sidebar settings */
 @media only screen and (min-width: 880px){
     .nav{
@@ -28,6 +38,9 @@ body{
     }
     .sidebar{
         display: none;
+    }
+    .insert{
+        margin-left: 13rem;
     }
 }
 @media only screen and (max-width: 879px){
@@ -45,6 +58,12 @@ body{
     width: auto;
     margin-top: 2rem;
     margin-left: 2rem;
+    rotate: 0deg;
+    transition: 300ms ease-in-out;
+}
+.sidebar-img:active{
+    rotate: 90deg;
+    transition: 300ms ease-in-out;
 }
 .google{
     width: 70px;
@@ -98,7 +117,6 @@ body{
     padding-top: 7.5rem;
     padding-inline: 5rem;
     height: 55rem;
-    margin-left: 13rem;
 }
 .hi{
     padding: 0 3rem;
@@ -112,9 +130,7 @@ body{
         opacity: 0;
     }
 }
-h3{
-    font-weight: 100;
-}
+
 .head2{
     padding: 0 3rem;
 }
@@ -127,14 +143,10 @@ h3{
 .red{
     color: rgb(240, 72, 72);
 }
-h1{
-    font-size: 4rem;
-}
+
 /* Middle section settings */
 #section3{
-    color: rgb(216, 228, 241);
-    margin-left: 13rem;
-    display: inline-flex;
+    color: rgb(216, 228, 241);    display: inline-flex;
     flex-wrap: wrap;
 }
 .myPhoto{
@@ -175,7 +187,6 @@ h1{
 /* Bottom section settings */
 .section2{
     text-align: center;
-    margin-left: 13rem;
     font-size: large;
     color: rgb(216, 228, 241);
 }
@@ -196,7 +207,6 @@ h1{
 /* Projects section settings */
 #projects{
     height: 100rem;
-    margin-left: 13rem;
     padding: 5rem;
     color: rgb(216, 228, 241);
     display: block;
@@ -214,10 +224,7 @@ h1{
     box-shadow: 10px 10px rgb(22, 22, 22);
     border-radius: 1rem;
 }
-h4{
-    font-size: 4rem;
-    margin: 1rem
-}
+
 .project1img{
     width: 30rem;
     height: auto;
@@ -256,7 +263,6 @@ h4{
 }
 /* Contact section settings */
 #contact{
-    margin-left: 13rem;
     color: white;
     text-align: center;
 }
@@ -299,7 +305,7 @@ input{
     background-color: #333;
 }
 /* Footer settings */
-#footer{
+.footer{
     padding-top: 30px;
     padding-right: 15px;
     padding-bottom: 30px;
@@ -308,5 +314,4 @@ input{
     color: gray;
     height: inherit;
     width: auto;
-    margin-left: 210px;
 }
