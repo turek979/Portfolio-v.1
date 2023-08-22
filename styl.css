@@ -42,6 +42,10 @@ h4{
     .insert{
         margin-left: 13rem;
     }
+    #section{
+        padding-top: 7.5rem;
+        padding-inline: 5rem;
+    }
 }
 @media only screen and (max-width: 879px){
     .nav{
@@ -51,6 +55,10 @@ h4{
         position: -webkit-sticky;
         position: sticky;
         top: 0;
+    }
+    #section{
+        margin-top: 2rem;
+        margin-left: 2rem;
     }
 }
 .sidebar-img{
@@ -114,8 +122,6 @@ h4{
 #section{
     font-size: 2rem;
     color: #d1d1d1;
-    padding-top: 7.5rem;
-    padding-inline: 5rem;
     height: 55rem;
 }
 .hi{
