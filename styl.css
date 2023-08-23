@@ -50,6 +50,8 @@ h4{
 @media only screen and (max-width: 879px){
     .nav{
         display: none;
+        overflow-x: hidden;
+        position: fixed;
     }
     .sidebar{
         position: -webkit-sticky;
@@ -298,6 +300,7 @@ input{
     margin: 0.7rem;
     padding: 0.3rem;
     color: white;
+    resize: vertical
 }
 .form-button{
     width: 10rem;
@@ -306,6 +309,7 @@ input{
     color: white;
     border: none;
     margin: 1rem;
+    resize: vertical
 }
 .form-button:onclick{
     background-color: #333;

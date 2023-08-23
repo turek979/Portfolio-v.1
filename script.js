@@ -1,6 +1,6 @@
 let messageArray = ["I'm Jacob and I'm a Junior Front End developer"];
 let textPosition = 0;
-let speed = 50;
+const speed = 50;
 
 typewriter = () => {
     document.querySelector("#im").
