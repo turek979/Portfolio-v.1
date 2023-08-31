@@ -236,6 +236,7 @@ h4{
 .project1img{
     width: 30rem;
     height: auto;
+    padding: 5rem;
 }
 .project2{
     float: right;
@@ -250,6 +251,7 @@ h4{
 .project2img{
     width: 30rem;
     height: auto;
+    padding: 5rem;
 }
 .project3{
     float: left;
