@@ -118,7 +118,7 @@ h4{
 }
 #button2:hover{
     scale: 1.1;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 /* Introduction section settings */
 #section{
