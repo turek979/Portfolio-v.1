@@ -93,26 +93,26 @@
             </section>
             <section id="contact">
                 <h1>Contact Form</h1>
-                <form id="contact-form" method="POST" action="sendmail.php">
-                    <div class="form-row form-error" style="display:none;"></div>
-                    <div class="form-row">
-                      <label for="contact-form-name"></label>
-                      <input id="contact-form-name" class="form-input" type="text" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-row">
-                      <label for="contact-form-email"></label>
-                      <input id="contact-form-email" class="form-input" type="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-row">
-                      <label for="contact-form-phone"></label>
-                      <input id="contact-form-phone" class="form-input" type="tel" name="phone" placeholder="Phone">
-                    </div>
-                    <div class="form-row">
-                      <label for="contact-form-message"></label>
-                      <textarea id="contact-form-message" class="form-input" name="message" placeholder="Message" required></textarea>
-                    </div>
-                    <button type="submit" class="form-button">SUBMIT</button>
-                    <button type="reset" class="form-button">RESET</button>
+                  <form action="action_page.php">
+      
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Your E-mail">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
                   </form>
             </section>
             <footer class="footer">@2023, Built and designed by Jakub Turowski</footer>

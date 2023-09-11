@@ -25,7 +25,7 @@ h4{
     margin: 1rem
 }
 /* Nav and sidebar settings */
-@media only screen and (min-width: 880px){
+@media only screen and (min-width: 1025px){
     .nav{
         background: rgba(0,0,0, .5);
         width: 10rem;
@@ -47,7 +47,7 @@ h4{
         padding-inline: 5rem;
     }
 }
-@media only screen and (max-width: 879px){
+@media only screen and (max-width: 1024px){
     .nav{
         display: none;
         overflow-x: hidden;
@@ -275,46 +275,35 @@ h4{
 #contact{
     color: white;
     text-align: center;
+    padding: 5rem;
 }
-#contact-form{
-    background-color: hsla(233, 8%, 19%);
-    margin: 5rem;
-    margin-inline: 25%rem;
-    padding: 3rem;
-    display: flex;
-}
-textarea{
-    background-color: #434346;
-}
-input{
-    background-color: #434346;
-}
-.form-error {
-    color: red;
-}
-.form-input{
-    background-color: #1d1d20;
-    border: solid;
-    border-color: black;
-    border-width: 1px;
-    height: 3rem;
-    width: 15rem;
-    margin: 0.7rem;
-    padding: 0.3rem;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
     color: white;
-    resize: vertical
-}
-.form-button{
-    width: 10rem;
-    height: 3rem;
-    background-color: #1d1d20;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-color: rgb(22, 22, 22);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
     color: white;
+    padding: 12px 20px;
     border: none;
-    margin: 1rem;
-    resize: vertical
-}
-.form-button:onclick{
-    background-color: #333;
+    border-radius: 4px;
+    border-color: rgb(22, 22, 22);
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+#name, #email, #message, #country{
+    background-color: hsla(233, 8%, 19%);
+
 }
 /* Footer settings */
 .footer{
