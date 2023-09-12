@@ -1,7 +1,6 @@
 /* Universal settings */
 html {
     scroll-behavior: smooth;
-    min-width: 600px;
 }
 a{
     text-decoration: none;
@@ -274,6 +273,8 @@ h4{
 }
 /* Contact section settings */
 #contact{
+    margin: auto;
+    max-width: 60%;
     color: white;
     text-align: center;
     padding: 5rem;
