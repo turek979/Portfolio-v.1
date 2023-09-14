@@ -1,3 +1,4 @@
+// Writing the intro section
 let messageArray = ["I'm Jacob and I'm a Junior Front End developer"];
 let textPosition = 0;
 const speed = 50;
