@@ -12,3 +12,10 @@ typewriter = () => {
 }
 
 window.addEventListener("load", typewriter);
+
+window.addEventListener("load", function () {
+    
+    const border = document.querySelector(".myPhoto");
+
+    border.style.transform = "rotate(360deg)";
+});
