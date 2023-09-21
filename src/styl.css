@@ -158,20 +158,12 @@ h4{
 }
 
 /* Middle section settings */
-<<<<<<< HEAD:styl.css
-#section3{
-    color: rgb(216, 228, 241);    
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-=======
 #aboutMe{
     color: rgb(216, 228, 241);
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
->>>>>>> 96ecad62cd808616c81d81bc08182720d96323f8:src/styl.css
 }
 .myPhoto{
     flex: 1;
