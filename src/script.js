@@ -1,3 +1,4 @@
+// Writing the intro section
 let messageArray = ["I'm Jacob and I'm a Junior Front End developer"];
 let textPosition = 0;
 const speed = 50;
@@ -11,3 +12,10 @@ typewriter = () => {
 }
 
 window.addEventListener("load", typewriter);
+
+window.addEventListener("load", function () {
+    
+    const border = document.querySelector(".myPhoto");
+
+    border.style.transform = "rotate(360deg)";
+});
