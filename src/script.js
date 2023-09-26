@@ -16,7 +16,7 @@ window.addEventListener("load", typewriter);
 // TODO animater border
 window.addEventListener("load", function () {
     
-    const border = document.querySelector(".myPhoto");
+    const border = document.querySelector(".photo");
 
     border.style.transform = "rotate(360deg)";
 });

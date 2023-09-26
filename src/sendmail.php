@@ -1,26 +1,27 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if(
-        !empty($_POST['name'])
-        && !empty($_POST['email'])
-        && !empty($_POST['message'])
-    ){
-        $name = $_POST["name"];
-        $email = $_POST["email"];
-        $phone = $_POST["phone"];
-        $message = $_POST["message"];
+    // Retrieve form data
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $topic = $_POST["topic"];
+    $message = $_POST["message"];
 
+    // Compose the email message
+    $to = "recipient@example.com"; // Replace with the recipient's email address
+    $subject = "Contact Form Submission: $topic";
+    $message_body = "Name: $name\n";
+    $message_body .= "Email: $email\n";
+    $message_body .= "Topic: $topic\n";
+    $message_body .= "Message:\n$message";
 
-        $to = "turek979@gmail.com";
-        $subject = "New Contact Form Submission";
-        $body = "Name: {$name}\nEmail: {$email}\nPhone: {$phone}\nMessage: {$message}";
-        $headers = "From: {$email}";
-
-
-        if (mail($to, $subject, $body, $headers)) {
-            echo "Message sent successfully!";
-        } else {
-            echo "Failed to send message.";
-        }
+    // Send the email
+    $headers = "From: $email";
+    if (mail($to, $subject, $message_body, $headers)) {
+        echo "Your message has been sent successfully!";
+    } else {
+        echo "Oops! Something went wrong. Please try again later.";
     }
+} else {
+    echo "Access denied.";
 }
+?>
