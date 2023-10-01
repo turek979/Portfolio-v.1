@@ -80,8 +80,8 @@ h4{
     rotate: 90deg;
     transition: 300ms ease-in-out;
 }
-.google{
-    width: 70px;
+.logo{
+    width: 150px;
     height: auto;
     padding: 22px;
     border-radius: 10px;
