@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('myModal');
     const openModalButton = document.getElementById('openModalButton');
     const heroImage = document.getElementById('heroImage');
-    const modalContent = document.querySelector('.modal-content'); // Added this line
+    const modalContent = document.querySelector('.modal-content');
 
     openModalButton.addEventListener('click', function () {
         modal.classList.add('active');
