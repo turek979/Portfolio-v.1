@@ -49,6 +49,9 @@ h4{
         padding-top: 7.5rem;
         padding-inline: 5rem;
     }
+    .projectLeft, .projectRight{
+        width: 30rem;
+    }
 }
 @media only screen and (max-width: 1024px){
     .nav{
@@ -66,6 +69,9 @@ h4{
         margin-top: 2rem;
         margin-left: 2rem;
         font-size: 1rem;
+    }
+    .projectLeft, .projectRight{
+        width: 20rem;
     }
 }
 .sidebar-img{
@@ -274,7 +280,7 @@ h4{
 }
 /* Projects section settings */
 #projectSection{
-    padding: 5rem;
+    margin-inline: 50px;
     color: rgb(216, 228, 241);
     display: grid;
 }
@@ -287,7 +293,6 @@ h4{
 }
 .projectLeft{
     float: left;
-    width: 30rem;
     padding: 5rem;
     background-color: hsla(233, 8%, 19%);
     box-shadow: 10px 10px rgb(22, 22, 22);
@@ -300,7 +305,6 @@ h4{
 }
 .projectRight{
     float: right;
-    width: 30rem;
     padding: 5rem;
     background-color: hsla(233, 8%, 19%);
     box-shadow: 10px 10px rgb(22, 22, 22);
