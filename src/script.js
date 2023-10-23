@@ -14,12 +14,12 @@ typewriter = () => {
 window.addEventListener("load", typewriter);
 
 // TODO animater border
-// window.addEventListener("load", function () {
+window.addEventListener("load", function () {
     
-//     const border = document.querySelector(".photo");
+    const border = document.querySelector(".photo");
 
-//     border.style.transform = "rotate(360deg)";
-// });
+    border.style.transform = "rotate(360deg)";
+});
 
 //Pop up windows
 document.addEventListener('DOMContentLoaded', function () {
