@@ -21,6 +21,16 @@ window.addEventListener("load", function () {
     border.style.transform = "rotate(360deg)";
 });
 
+
+//TODO Hopping icons upon loading content
+const gridContainer = document.querySelector('.grid-container');
+gridContainer.addEventListener('click', function (){
+    const ikonyt = document.getElementById('ikonyt');
+    ikonyt.focus();
+    // setTimeout(() => {ikonyt.focus()}, 500);
+});
+
+
 //Pop up windows
 document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('myModal');
