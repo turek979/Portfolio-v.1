@@ -268,7 +268,11 @@ h4{
 #ikonyt{
     transition: transform 1s ease-in-out;
 }
-#ikonyt:hover, #ikonyt:focus{
+#ikonyt:hover{
+    transform: translate(0, -1rem);
+    transition: 1s;
+}
+.ikony-animate{
     transform: translate(0, -1rem);
     transition: 1s;
 }
