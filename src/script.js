@@ -24,10 +24,10 @@ window.addEventListener("load", function () {
 
 //TODO Hopping icons upon loading content
 const gridContainer = document.querySelector('.grid-container');
+const ikonyAnimate = document.getElementById('ikonyt');
 gridContainer.addEventListener('click', function (){
-    const ikonyt = document.getElementById('ikonyt');
-    ikonyt.focus();
-    // setTimeout(() => {ikonyt.focus()}, 500);
+    ikonyAnimate.classList.add('active');
+    setTimeout(() => {ikonyAnimate.classList.remove('active')}, 1000);
 });
 
 

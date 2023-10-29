@@ -272,7 +272,7 @@ h4{
     transform: translate(0, -1rem);
     transition: 1s;
 }
-.ikony-animate{
+#ikonyt.active{
     transform: translate(0, -1rem);
     transition: 1s;
 }
