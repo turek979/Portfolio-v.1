@@ -171,6 +171,7 @@ h4{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    padding-top: 4rem;
 }
 .photo{
     overflow: hidden;
