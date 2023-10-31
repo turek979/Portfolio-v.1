@@ -13,7 +13,7 @@ typewriter = () => {
 
 window.addEventListener("load", typewriter);
 
-// TODO animater border
+// TODO Animater photo border
 // window.addEventListener("load", function () {
     
 //     const border = document.querySelector(".photo");
@@ -21,17 +21,19 @@ window.addEventListener("load", typewriter);
 //     border.style.transform = "rotate(360deg)";
 // });
 
-
-//TODO Hopping icons upon loading content
+//TODO Jumping icons upon seeing content
 const gridContainer = document.querySelector('.grid-container');
-const ikonyAnimate = document.getElementById('ikonyt');
 gridContainer.addEventListener('click', function (){
-    ikonyAnimate.classList.add('active');
-    setTimeout(() => {ikonyAnimate.classList.remove('active')}, 1000);
+    for (let i = 0; i > 5; i++) {
+        const iconJump = document.querySelector(`.icon-${i}`);
+        iconJump.classList.add('active');
+        console.log('Jump'  + i);
+        setTimeout(() => {iconJump.classList.remove('active')}, 1000);
+    };
 });
 
 
-//Pop up windows
+//Bio pop up window
 document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('myModal');
     const openModalButton = document.getElementById('openModalButton');
