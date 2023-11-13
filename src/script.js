@@ -24,7 +24,7 @@ window.addEventListener("load", typewriter);
 //TODO Jumping icons upon seeing content
 const gridContainer = document.querySelector('.grid-container');
 gridContainer.addEventListener('click', function (){
-    for (let i = 0; i > 5; i++) {
+    for (let i = 1; i > 5; i++) {
         const iconJump = document.querySelector(`.icon-${i}`);
         iconJump.classList.add('active');
         console.log('Jump'  + i);
